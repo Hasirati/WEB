@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    overflow: auto;
+}
+
+.behind {
+    display: inline-block;
+    box-shadow: 0 2px 1px #c0c0c0;
+    height: 30px;
+    padding: 10px;
+}
+
+.behindHead {
+    margin-top: -2%;
+}
+
+.behindFat {
+    font-size: 140%;
+    font-weight: bold;
+    margin: auto auto;
+    margin: 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.behindCreate {
+    margin: 8px;
+    padding-bottom: 3px;
+}
+
+.behindEdit {
+    border-radius: 10px;
+    padding: 8px;
+    text-align: center;
+    margin: 8px;
+}
+
+.overlay {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+}
+
+.modal {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 400px;
+    height: 515px;
+    background-color: rgb(255, 255, 255);
+    border: solid black 2px;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+}
+
+.modalTitle {
+    color: rgb(0, 4, 255);
+    font-size: 150%;
+    margin-left: 2%;
+}
+
+.modalHead {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 1px #c0c0c0;
+    margin: -20px -20px 25px;
+    padding: 5px;
+}
+
+.modalBody {
+    font-size: 110%;
+    margin-top: -18px;
+}
+
+.modalEdit {
+    border-radius: 4px;
+    border: 1px solid #bcbcbc;
+    padding: 8px;
+    width: 60%;
+    text-align: center;
+    margin-bottom: -3px;
+}
+
+#modalFile {
+    width: 110px;
+    height: 110px;
+    border: 1px solid #bcbcbc;
+    border-radius: 3px;
+}

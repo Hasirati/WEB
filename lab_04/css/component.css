@@ -1,0 +1,27 @@
+.compTable {
+    border: solid rgb(133, 250, 250) 1px;
+    background-color: rgb(201, 243, 243);
+    border-radius: 10px;
+    width: 240px;
+    font-family: Calibri, cursive;
+    display: block;
+    margin: auto;
+}
+
+.compImg {
+    padding-top: 10px;
+    width: 220px;
+    display: block;
+    margin: auto;
+}
+
+.compTitle {
+    text-align: center;
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+.compLine {
+    text-align: center;
+    font-size: smaller;
+}

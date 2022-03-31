@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/buttons.css">
+</head>
+
+<body>
+    <form class="overlay"></form>
+
+    <form class="behind">
+        <div class="behindHead">
+            <span class="behindFat">MY PRITNERS</span>
+            <label for="behindCreate">Create printer</label>
+            <label for="behindEdit">
+                <input id="behindEdit" class="behindEdit" placeholder="Search your printer">
+            </label>
+            <button class="butSearch">Search</button>
+            <button class="butCancel">Cancel</button>
+        </div>
+    </form>
+
+    <form class="modal">
+        <div class="modalHead">
+            <span class="modalTitle">Printer options</span>
+            <button class="butClose">X</button>
+        </div>
+
+        <div class="modalBody">
+            <p>
+                <label for="name">Printer name<br>
+                    <input id="name" class="modalEdit" placeholder="Enter a name for the printer">
+                </label>
+            </p>
+            <p>
+                <label for="size">Maximum paper size<br>
+                    <select id="size" class="modalEdit">
+                        <option value="A3">A3</option>
+                        <option value="A4">A4</option>
+                        <option value="A5">A5</option>
+                        <option value="A6">A6</option>
+                        <option value="A7">A7</option>
+                        <option value="A8">A8</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label for="speed">Print speed, ppm<br>
+                    <input id="speed" class="modalEdit" placeholder="Enter the print speed, ppm">
+                </label>
+            </p>
+            <p>
+                <label for="resource">Cartridge resource, page<br>
+                    <input id="resource" class="modalEdit" placeholder="Enter the cartridge resource, page">
+                </label>
+            </p>
+            <p>
+                <img id="modalFile" alt="" src=""><br>
+                <label for="file">Select image files<br>
+                    <input type="file" class="modalEdit" id="file" accept=".png, .jpg, .jpeg">
+                </label>
+            </p>
+        </div>
+
+        <div>
+            <button class="butConfirm">Confirm</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
