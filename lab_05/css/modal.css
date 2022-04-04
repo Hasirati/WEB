@@ -3,6 +3,16 @@ body {
     overflow: auto;
 }
 
+.overlay {
+    background-color: black;
+    width: 100%;
+    height: 110%;
+    opacity: 50%;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+}
+
 .behind {
     display: inline-block;
     box-shadow: 0 2px 1px #c0c0c0;
@@ -32,16 +42,6 @@ body {
     padding: 8px;
     text-align: center;
     margin: 8px;
-}
-
-.overlay {
-    background-color: black;
-    width: 100%;
-    height: 100%;
-    opacity: 50%;
-    top: 0%;
-    left: 0%;
-    position: absolute;
 }
 
 .modal {
