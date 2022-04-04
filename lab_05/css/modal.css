@@ -15,7 +15,7 @@ body {
 
 .behind {
     display: inline-block;
-    box-shadow: 0 2px 1px #c0c0c0;
+    box-shadow: 0 2px 1px #969595;
     height: 30px;
     padding: 10px;
 }
