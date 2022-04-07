@@ -1,0 +1,19 @@
+.left,
+.right {
+    float: left;
+    margin: 5px 10px 5px 0;
+    border: 1px solid black;
+    text-align: center;
+}
+
+h2 {
+    clear: left;
+    background-color: #6B5B95;
+    color: white;
+    padding: 8px;
+}
+
+body {
+    font-family: Bradley Hand, cursive;
+    font-size: large;
+}
