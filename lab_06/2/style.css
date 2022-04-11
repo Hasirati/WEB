@@ -1,0 +1,61 @@
+    main {
+        border: 4px solid #21334b;
+        padding: 0;
+        clear: both;
+        font-family: Bradley Hand, cursive;
+        font-size: 40px;
+        text-align: center;
+        color: #ededed;
+        background-color: #5f90c5;
+        border: 2px solid #21334b;
+        margin: 10px;
+    }
+    
+    header {
+        border-bottom: 2px solid #21334b;
+        padding: 20px;
+    }
+    
+    nav {
+        padding: 20px;
+    }
+    
+    article {
+        float: left;
+        width: 45.8%;
+        font-family: Bradley Hand, cursive;
+        font-size: 40px;
+        text-align: center;
+        color: #ededed;
+        background-color: #5f90c5;
+        border: 2px solid #21334b;
+        margin: 10px;
+        padding: 20px;
+        margin-right: 0;
+    }
+    
+    aside {
+        float: right;
+        width: 45.8%;
+        font-family: Bradley Hand, cursive;
+        font-size: 40px;
+        text-align: center;
+        color: #ededed;
+        background-color: #5f90c5;
+        border: 2px solid #21334b;
+        margin: 10px;
+        padding: 20px;
+        margin-left: 0;
+    }
+    
+    footer {
+        clear: both;
+        font-family: Bradley Hand, cursive;
+        font-size: 40px;
+        text-align: center;
+        color: #ededed;
+        background-color: #5f90c5;
+        border: 2px solid #21334b;
+        margin: 10px;
+        padding: 20px;
+    }
