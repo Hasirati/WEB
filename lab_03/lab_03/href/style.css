@@ -1,0 +1,141 @@
+.table td,
+.table th {
+    border: 1px solid #6395ff;
+    padding: 5px 10px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+.table thead {
+    background-color: #dae1f8;
+}
+
+.table tfoot {
+    background-color: #5776b1;
+    color: #fff;
+    text-align: right;
+}
+
+.table2 td,
+.table2 th {
+    /* border: 1px solid #000000; */
+    padding: 5px 10px;
+}
+
+.table2 {
+    border-collapse: collapse;
+    font-size: medium;
+}
+
+.table2 caption {
+    font-weight: 600;
+    font-size: large;
+}
+
+.blue,
+.day {
+    background-color: rgba(122, 198, 241, 0.459);
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-left: 2px solid #000000;
+}
+
+.green,
+.greenAud,
+.greenAud1 {
+    background-color: rgba(169, 238, 203, 0.87);
+}
+
+.lox,
+.para,
+.week,
+.week2 {
+    background-color: rgba(122, 198, 241, 0.459);
+}
+
+.green {
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+.greenAud {
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-right: dotted thin;
+}
+
+.greenAud1 {
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-right: 2px solid #000000;
+}
+
+.day {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: large;
+}
+
+.para {
+    border-bottom: 1px solid #000000;
+}
+
+.week {
+    border-top: 1px solid #000000;
+    border-bottom: dotted thin;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+}
+
+.week2 {
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.lox {
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.cab {
+    border-right: dotted thin;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.cab2 {
+    border-right: 2px solid #000000;
+    border-top: 1px solid #000000;
+}
+
+.lec {
+    border-bottom: 1px solid #000000;
+}
+
+.lec1 {
+    border-bottom: dotted thin;
+}
+
+.cab1 {
+    border-bottom: dotted thin;
+    border-right: dotted thin;
+    border-left: 1px solid #000000;
+}
+
+.cab6 {
+    border-bottom: 2px solid #000000;
+    border-left: 1px solid #000000;
+}
+
+.cab7 {
+    border-bottom: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-left: dotted thin;
+    border-top: 1px solid #000000;
+}
