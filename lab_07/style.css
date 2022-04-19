@@ -1,0 +1,48 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-size: 30px;
+    font-family: Bradley Hand, cursive;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+
+header,
+.logo,
+menu,
+nav,
+article,
+.content,
+.unit,
+footer {
+    background-color: DodgerBlue;
+    margin: 20px 10px;
+    padding: 20px;
+}
+
+.wheader,
+.wfooter,
+.new {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+}
+
+header,
+footer,
+.container,
+main {
+    flex-grow: 1;
+}
+
+aside {
+    width: 250px;
+    min-width: 150px;
+}
