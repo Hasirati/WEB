@@ -1,3 +1,37 @@
-.gr {
-    background-color: aqua;
+$borderStyle: solid black 3px;
+@mixin inStyle($radius: 50px) {
+    background-color: #eeff05;
+    border-radius: $radius;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: Bradley Hand, cursive;
+}
+
+.first,
+.second {
+    display: flex;
+    justify-content: space-around;
+    p {
+        text-align: center;
+        padding: 50px;
+        background-color: aqua;
+        min-width: 300px;
+        border: $borderStyle;
+        font-size: 50px;
+    }
+}
+
+.imitation>p:hover {
+    @include inStyle;
+}
+
+.impurities>p {
+    @include inStyle(10px);
+}
+
+.inheritance {
+    @extend .impurities;
+    color: #ff0512;
 }

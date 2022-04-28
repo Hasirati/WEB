@@ -1,3 +1,36 @@
-.gr {
+body {
+  background-color: #f1f1f1;
+  font-family: Bradley Hand, cursive;
+}
+
+.first,
+.second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.first p,
+.second p {
+  text-align: center;
+  padding: 50px;
   background-color: aqua;
+  min-width: 300px;
+  border: solid black 3px;
+  font-size: 50px;
+}
+
+.imitation > p:hover {
+  background-color: #eeff05;
+  border-radius: 50px;
+}
+
+.impurities > p, .inheritance > p {
+  background-color: #eeff05;
+  border-radius: 10px;
+}
+
+.inheritance {
+  color: #ff0512;
 }
