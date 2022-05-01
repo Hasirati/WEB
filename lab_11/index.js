@@ -52,4 +52,4 @@ let secondsPerHour = 60 * 60;
 let secondsPerDay = secondsPerHour * 24;
 let secondsPerMonth = secondsPerDay * 30;
 
-alert("Seconds per hour: " + secondsPerHour + "br" + "Seconds per day: " + secondsPerDay + "br" + "Seconds per month: " + secondsPerMonth);
+alert("Seconds per hour: " + secondsPerHour + "\n" + "Seconds per day: " + secondsPerDay + "\n" + "Seconds per month: " + secondsPerMonth);
